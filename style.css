@@ -86,10 +86,10 @@
 }
 
 .input button{
-    margin-top: 10px;
-    padding: 8px 12px;
+    margin-top: 15px;
+    padding: 10px 20px;
     color: #ffffff;
-    background-color: black;
+    background-color: #000000;
     border: none;
     border-radius: 10px;
 
@@ -97,13 +97,60 @@
 .input .input-container{
     position: relative;
 }
-
 .input .input-container input{
     padding-left: 25px;
 }
-
 .input .input-container i{
-    /*margin-left: 95%;*/
+  /* margin-left: -95%;*/
     position: absolute;
-    top: 35%;
+    top: 30%;
+    left: 4%
+}
+#brand-section, #body-type-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin: 40px 0px;
+}
+
+.brand-section-container, .body-type-section-container{
+     width: 90vw;
+}
+
+.brand-section-header, .body-type-section-header{
+    display: flex;
+}
+.brand-section-button, .body-type-section-button{
+    width: 89%;
+    display: flex;
+    justify-content: end;
+}
+.brand-section-button{
+    width: 87%;
+}
+.brand-section-button a, .body-type-section-button a{
+    text-decoration: none;
+    color: #000000;
+}
+.brand-container, .body-type-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brand-content, .body-type-content{
+    width: 15%;
+    height: 100px;
+    background-color: #E5E4E2;
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand, .body-type{
+    text-align: center;
+}
+.body-type-section-button{
+    width: 87%;
 }
