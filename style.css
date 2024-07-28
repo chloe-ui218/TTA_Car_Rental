@@ -106,14 +106,19 @@
     top: 30%;
     left: 4%
 }
-#brand-section, #body-type-section, #collection-section{
+#brand-section, 
+#body-type-section,
+ #collection-section, 
+ #how-section{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     margin: 40px 0px;
 }
 
-.brand-section-container, .body-type-section{
+.brand-section-container,
+ .body-type-section, 
+ .how-section-container{
      width: 90vw;
 }
 
@@ -162,11 +167,13 @@
     background-color: #E5E4E2;
     padding-bottom: 40px;
 }
-.collection-section-header{
+.collection-section-header, 
+.how-section-header{
     width: 100%;
     text-align: center;
 }
-.collection-section-header p{
+.collection-section-header p,
+ .how-section-header p{
     text-align: center;
     padding: 35px;
     
@@ -255,7 +262,14 @@
     border: 1px solid black;
     top: 30px;
 }
-.button-section-header-3{
+.collection-section-header h1{
+    
+}
+.how-section-header h1{
+    font-family: sans-serif;
+}
+#button-section-container p{
     display: flex;
     justify-content: center;
+    margin-right: 30%;
 }
