@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* Home section styles */
+
 #Home-section{
     margin-bottom: 20px;
 }
@@ -106,6 +108,8 @@
     top: 30%;
     left: 4%
 }
+
+/* Murtiple styling */
 #brand-section, 
 #body-type-section,
  #collection-section, 
@@ -116,6 +120,7 @@
     margin: 40px 0px;
 }
 
+/* Brand and Body type styling */
 .brand-section-container,
  .body-type-section, 
  .how-section-container{
@@ -161,6 +166,8 @@
 .body-type-section-button{
     width: 87%;
 }
+
+/* Collection styling*/
 
 #collection-section{
     margin-bottom: 40px;
@@ -265,11 +272,75 @@
 .collection-section-header h1{
     
 }
+.see-all-button{
+    display: flex;
+    justify-content: center;
+}
 .how-section-header h1{
     font-family: sans-serif;
 }
-#button-section-container p{
+
+/* How section styling*/
+.how-container{
+    display: flex;
+    position: relative;
+}
+.how-container .how-content-empty{
+    width: 40%;
+}
+.how-container .car-img{
+    width: 60%;
+}
+.how-container{
+    display: flex;
+    position: relative;
+}
+.how-container .how-content-empty{
+    width: 30%;
+}
+.step-container{
+    display: flex;
+    background-color: #ffffff;
+    border: 2px solid #E5E4E2;
+    padding: 15px 5px;
+    margin: 20px 0px;
+    border-radius: 7px;
+    justify-content: space-around;
+}
+.how-container .how-content-steps{
+    position: absolute;
+    width: 45%;
+}
+.step-icon-container{
+    width: 20%;
     display: flex;
     justify-content: center;
-    margin-right: 30%;
+    align-items: center;
+}
+.step-icon{
+    background-color: #E5E4E2;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.step-content{
+    padding: 0px 5px;
+}
+.step-content p{
+    text-align: justify;
+    padding-right: 25px;
+}
+.step-content h3{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    padding-right: 25px;
+    padding-left: 4px;
+}
+.how-container .car-img{
+    width: 70%;
+    background-color: #F5F5F5;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
