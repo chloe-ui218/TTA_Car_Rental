@@ -113,17 +113,19 @@
 #brand-section, 
 #body-type-section,
  #collection-section, 
- #how-section{
+ #how-section,
+#service-section{
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
     margin: 40px 0px;
+    margin-top: 10%;
 }
 
 /* Brand and Body type styling */
 .brand-section-container,
  .body-type-section, 
- .how-section-container{
+ .how-section-container,
+.service-section-container{ 
      width: 90vw;
 }
 
@@ -175,12 +177,14 @@
     padding-bottom: 40px;
 }
 .collection-section-header, 
-.how-section-header{
+.how-section-header, 
+.service-section-header{
     width: 100%;
     text-align: center;
 }
 .collection-section-header p,
- .how-section-header p{
+ .how-section-header p, 
+ .service-section-header p{
     text-align: center;
     padding: 35px;
     
@@ -221,6 +225,12 @@
 .collection-item img{
     width: 100%;
     height: auto;
+}
+
+.img-container img{
+    display: flex;
+    justify-content: center;
+
 }
 
 .details-container{
@@ -268,9 +278,14 @@
 .collection-item-2{
     border: 1px solid black;
     top: 30px;
-}
-.collection-section-header h1{
     
+}
+.see-all-button button{
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: #000000;
+    border-radius: 30px;
 }
 .see-all-button{
     display: flex;
@@ -298,6 +313,15 @@
 .how-container .how-content-empty{
     width: 30%;
 }
+.how-container .how-content-steps{
+    position: absolute;
+    width: 45%;
+}
+
+.step-content{
+    padding: 0px 5px;
+}
+
 .step-container{
     display: flex;
     background-color: #ffffff;
@@ -307,34 +331,32 @@
     border-radius: 7px;
     justify-content: space-around;
 }
-.how-container .how-content-steps{
-    position: absolute;
-    width: 45%;
-}
+
 .step-icon-container{
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .step-icon{
     background-color: #E5E4E2;
     padding: 20px 10px;
     border-radius: 10px;
 }
-.step-content{
-    padding: 0px 5px;
-}
-.step-content p{
-    text-align: justify;
-    padding-right: 25px;
-}
+
 .step-content h3{
     padding-bottom: 10px;
     font-family: sans-serif;
+    padding-left: 4px;
+}
+
+.step-content p{
+    text-align: justify;
     padding-right: 25px;
     padding-left: 4px;
 }
+
 .how-container .car-img{
     width: 70%;
     background-color: #F5F5F5;
@@ -343,4 +365,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+/* Service section styling*/
+#service-section{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 0px;
+    margin-bottom: unset;
+}
+.service-section-header-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
 }
