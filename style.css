@@ -378,3 +378,34 @@
     justify-content: center;
     margin: 40px 0px;
 }
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.service-item .service-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.service-icon-container .service-icon{
+    background-color: #ffffff;
+    padding: 2px 2px;
+    padding-bottom: unset;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.service-item .service-content{
+    text-align: center;
+    padding: 10px 0px;
+}
+.service-item .service-content h4{
+    padding: 12px;
+}
+.service-item .service-content p{
+    padding: 13px;
+}
+.service-item .body-type-content h4{
+    padding: 10px 0px;
+}
+
