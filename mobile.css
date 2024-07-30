@@ -1,7 +1,5 @@
 @media (max-width: 600px) {
      #Home-section,
-     #brand-section, 
-     #body-type-section,
      #collection-section, 
      #how-section,
      #service-section, 
@@ -27,4 +25,18 @@
         flex-direction: column;
         width: 70%;
      }
+
+     .brand-content, .body-type-content{
+        width: 30%;
+     }
+
+     .brand-content svg, .body-type-content svg{
+        width: 60%;
+     }
+
+     .brand-content p, .body-type-content p{
+        font-size: 13px;
+     }
+
+
 }
