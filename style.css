@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Home section styles */
 
 #Home-section{
@@ -115,21 +119,24 @@
  #collection-section, 
  #how-section,
 #service-section, 
-#comment-section{
+#comment-section,
+#download-section{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
     margin-top: 10%;
 }
 
-/* Brand and Body type styling */
 .brand-section-container,
  .body-type-section, 
  .how-section-container,
 .service-section-container, 
-.comment-section-container{ 
+.comment-section-container, 
+.download-section-container{ 
      width: 90vw;
 }
+
+/* Brand and Body type styling */
 
 .brand-section-header, .body-type-section-header, .comment-section-header{
     display: flex;
@@ -449,4 +456,58 @@
 
 .comment-owner-container-content h4{
     padding: 10px 0px;
+}
+#download-section{
+    background-color: #000000;
+    color: #ffffff;
+    margin: unset;
+    padding: 20px 0px;
+}
+.download-section-container{
+    display: flex;
+}
+.download-section-container > .download-content{
+    width: 50%;
+    padding-left: 40px;
+}
+.download-section-container > .download-description h2{
+    padding: 10px 0px;
+}
+.download-section-container > .download-description p{
+    font-size: 15px;
+    padding: 10px 0px;
+    font-weight: 100;
+}
+.download-section-container > .download-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-button-icon{
+    background-color: #ffffff;
+    padding: 10px 5px 10px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 0px 10px;
+    align-items: center;
+}
+.download-button-text{
+    color: #000000;
+    padding-right: 15px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.download-button-text p{
+    font-size: 12px;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.download-button-text a{
+    color: #000000;
+}
+.download-button-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
 }
