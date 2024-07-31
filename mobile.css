@@ -1,6 +1,5 @@
 @media (max-width: 600px) {
-     #Home-section,
-     #collection-section, 
+     #Home-section, 
      #how-section,
      #service-section, 
      #comment-section,
@@ -37,6 +36,16 @@
      .brand-content p, .body-type-content p{
         font-size: 13px;
      }
+
+     .collection-section-header ul li{
+        display: block;
+        margin: 10px 0px;
+     }
+     .collection-grid{
+        grid-template-columns: auto;
+     }
+
+
 
 
 }

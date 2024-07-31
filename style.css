@@ -219,7 +219,7 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 20px;
-    padding: 50px;
+    padding: 60px;
 }
 .collection-item{
     background-color: #ffffff;
@@ -234,7 +234,8 @@ a{
     border-radius: 50px;
 }
 .collection-item img{
-    width: 100%;
+    padding: 12px 20px 10px 17px;
+    width: 92%;
     height: auto;
 }
 
