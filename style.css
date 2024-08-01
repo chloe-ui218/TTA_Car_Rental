@@ -179,6 +179,10 @@ a{
 .body-type-section-button{
     width: 87%;
 }
+.body-type-container{
+    width: 90vw;
+    height: 35vh;
+}
 
 /* Collection styling*/
 
