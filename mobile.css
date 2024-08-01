@@ -1,5 +1,4 @@
 @media (max-width: 600px) { 
-     #comment-section,
      #download-section,
      footer{
       display: none;
@@ -57,5 +56,12 @@
    .how-content how-content-steps{
       position: relative;
       width: 100%;
+   }
+   .comment-section-buttons button{
+      height: 30px;
+      width: 30px;
+   }
+   .comment-section h1{
+      font-size: 20px;
    }
 
