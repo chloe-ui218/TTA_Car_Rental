@@ -1,5 +1,4 @@
 @media (max-width: 600px) { 
-     #service-section, 
      #comment-section,
      #download-section,
      footer{
@@ -27,11 +26,17 @@
    .brand-content p, .body-type-content p{
    font-size: 13px;
    }
+   .collection-section-header
+   .how-section-header, 
+.service-section-header{
+      width: 65%;
+   }
    .collection-section-header ul li{
       display: block;
       margin: 15px 0px;
    }
-   .collection-grid{
+   .collection-grid,
+   .service-grid{
       grid-template-columns: auto;
    }
    .how-container, .car-img{
