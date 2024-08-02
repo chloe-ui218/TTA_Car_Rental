@@ -26,7 +26,7 @@
    }
    .collection-section-header
    .how-section-header, 
-.service-section-header{
+   .service-section-header{
       width: 65%;
    }
    .collection-section-header ul li{
@@ -36,6 +36,9 @@
    .collection-grid,
    .service-grid{
       grid-template-columns: auto;
+   }
+   .how-container{
+      flex-direction: column;
    }
    .how-container, .car-img{
       flex-direction: column;
